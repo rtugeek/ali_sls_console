@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliSls", "AliSls\AliSls.csproj", "{DDC0B701-1480-4330-91AD-D452BF7A9795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDC0B701-1480-4330-91AD-D452BF7A9795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC0B701-1480-4330-91AD-D452BF7A9795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC0B701-1480-4330-91AD-D452BF7A9795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC0B701-1480-4330-91AD-D452BF7A9795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
