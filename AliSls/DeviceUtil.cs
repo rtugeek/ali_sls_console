@@ -21,6 +21,13 @@ public static class DeviceUtil
         return systemId;
     }
 
+    public static string? GetSystemVersion()
+    {
+        var name = (from x in new ManagementObjectSearcher("SELECT Caption FROM Win32_OperatingSystem").Get().Cast<ManagementObject>()
+            select x.GetPropertyValue("Caption")).FirstOrDefault();
+        return name != null ? name.ToString() : "Unknown";
+    }
+
     public static string? GetMac()
     {
         var macAddr =
